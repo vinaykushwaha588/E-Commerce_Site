@@ -13,3 +13,4 @@ urlpatterns = [
     path('mail/',views.sendMail),
     path('delete_cart/<int:pid>',views.delete_cart),
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+

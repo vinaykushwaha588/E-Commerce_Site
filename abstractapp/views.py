@@ -230,7 +230,7 @@ def myorder(request):
 def sendMail(request):
     from django.core.mail import EmailMessage
     msg="<h1 style='color:red'>Hello Devlopers!<h1>"
-    a=EmailMessage('Mail Testing By Surendra...',msg,"surendrakushwaha246@gmail.com",['surendrakush002@gmail.com','vinaykushwaha588@gmail.com','abhishekvishal8121997@gmail.com'])
+    a=EmailMessage('Mail Testing By Vinay...',msg,"vinaykushwaha587@gmail.com",['surendrakush002@gmail.com','vinaykushwaha588@gmail.com','abhishekvishal8121997@gmail.com'])
     a=a.send()
     if a:
         print("send")

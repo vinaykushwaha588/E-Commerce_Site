@@ -1,7 +1,7 @@
 # This file is resposible to some fields validations from form.
 import re
 def check_mobile(mobile):
-    """check if mobile lenth is 10 and have only digit retur True!"""
+    """check if mobile lenth is 10 and have only digit retunr True!"""
     if len(mobile)==10:
         if mobile.isdigit():
             return True

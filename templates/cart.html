@@ -56,7 +56,8 @@
                 <a href="/order/{{i.id}}" class="btn btn-primary">Place Order</a>
             </div>
         </div>
-
+    {%empty%}
+        <h3 class="text-center text-primary bg-light" style="background-color:white;">Currently not Add any item in cart</h3>
 
     </div>
     {% endfor %}
